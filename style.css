@@ -83,23 +83,21 @@ h2 {
 }
 
 #interests li {
-    color: #fffbe7
+    color: #fffbe7;
     font-size: 1rem;
     font-weight: 600;
     padding: 10px 20px;
     background: #fff
     border: 1px solid #ddd;
-    transition: background 
-    0.25s ease, color 0.25s ease, 
-    transform 0.25s ease;
+    transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
     cursor: default;
 }
 
 #interests li:hover {
-    background: #000
+    background: #000;
     color: #fff;
-    border-color: 000
-    translateY(-2px);
+    border-color: #000;
+    transform: translateY(-2px);
 }
 
 .sidebar-img {
@@ -154,7 +152,7 @@ nav h1 {
 
 .nav-li a {
     color: #fffbe7
-    text-decoration: none;
+    text-decoration: none;  
     font-size: 0.85rem;
     font-weight: 500;
     padding: 6px 14px;
@@ -164,6 +162,6 @@ ease, color 0.25s ease;
 }
 
 .nav-li a:hover {
-    background: #ffffff;
-    color: #fff;
+    background: hsl(339, 70%, 91%);
+    color: #ffddf3;
 }
