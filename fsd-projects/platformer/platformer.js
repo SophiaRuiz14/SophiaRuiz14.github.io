@@ -1,5 +1,5 @@
 $(function () {
-  // initialize canvas and context when able to
+// initialize canvas and context when able to
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
   window.addEventListener("load", loadJson);
@@ -27,21 +27,40 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
-
-
+      createPlatform(400, 620, 200, 20, "pink");
+      createPlatform(100, 500, 200, 20, "pink");  
+      createPlatform(800, 350, 20, 100, "pink");
+      createPlatform(1300, 500, 200, 20, "pink");
+      createPlatform(1300, 630, 200, 20, "pink");
+      createPlatform(1300, 370, 200, 20, "pink");
+      createPlatform(1300, 235, 200, 20, "pink");
+      createPlatform(400, 380, 200, 20, "pink");
+      createPlatform(600, 260, 100, 20, "pink");
+      createPlatform(100, 100, 20, 500, "pink");
+      createPlatform(1190, 230, 20, 400, "pink");
+      createPlatform(1000, 600, 200, 30, "pink");
+      createPlatform(990, 100, 20, 530, "pink");
+      createPlatform(1100, 300, 100, 20, "pink");
+      createPlatform(1000, 420, 100, 20, "pink");
+     
+      
 
 
     // TODO 3 - Create Collectables
-
+      createCollectable("diamond", 789, 210, 0.5, 0.7)
+      createCollectable("steve", 1330, 190, 0.5, 0.7)
+      createCollectable("grace", 1080, 560, 0.5, 0.7)
 
 
     
     // TODO 4 - Create Cannons
-
+      createCannon("top", 650, 600);
+      createCannon("left", 390, 1100);
+      createCannon("top", 1250, 2000)
 
     
     
